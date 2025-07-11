@@ -82,7 +82,7 @@ export const homePageConfig: HomePageConfig = {
       "AHQ Docsify is a fast, modern, and fully customizable documentation site generator built with Next.js and Tailwind CSS. Whether you're building product docs, API references, or internal wikis, AHQ Docsify makes it easy to write, manage, and deploy beautiful documentation with MDX — all in just a few clicks.",
     buttons: {
       getStarted: { label: "Get Started", href: "/docs/index" },
-      github: { label: "View on GitHub", href: "#" },
+      github: { label: "View on GitHub", href: "https://github.com/LevionyxStudio/AHQ-Docsify" },
     },
   },
   features: {
@@ -136,7 +136,7 @@ export const homePageConfig: HomePageConfig = {
       "Explore the documentation to see what's possible, or head over to GitHub to contribute and make it even better.",
     buttons: {
       docs: { label: "Explore Docs", href: "/docs/index" },
-      github: { label: "Contribute on GitHub", href: "#" },
+      github: { label: "Contribute on GitHub", href: "https://github.com/LevionyxStudio/AHQ-Docsify" },
     },
   },
   footer: {
@@ -152,7 +152,7 @@ export const homePageConfig: HomePageConfig = {
       {
         title: "Socials",
         links: [
-          { label: "GitHub", href: "#" },
+          { label: "GitHub", href: "https://github.com/LevionyxStudio/" },
           { label: "Twitter", href: "#" },
         ],
       },
@@ -165,9 +165,9 @@ export const homePageConfig: HomePageConfig = {
       },
     ],
     socials: [
-      { label: "GitHub", href: "#", icon: FaGithub },
+      { label: "GitHub", href: "https://github.com/LevionyxStudio/", icon: FaGithub },
       { label: "YouTube", href: "#", icon: FaYoutube },
-      { label: "Discord", href: "#", icon: FaDiscord },
+      { label: "Discord", href: "https://discord.gg/Kfff8WSbNe", icon: FaDiscord },
       { label: "Twitter", href: "#", icon: FaTwitter },
     ],
     credit: "AHQ Docsify. All rights reserved.",
