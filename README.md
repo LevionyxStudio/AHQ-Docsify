@@ -19,8 +19,8 @@ AHQ Docsify is a **fast**, **modern**, and **fully customizable** documentation 
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/ahqsoftwares/ahq-docsify.git
-cd ahq-docsify
+git clone https://github.com/LevionyxStudio/AHQ-Docsify
+cd AHQ-Docsify
 npm install
 npm run dev
 ```
