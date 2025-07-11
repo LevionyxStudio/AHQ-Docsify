@@ -1,0 +1,44 @@
+---
+title: "Tabs"
+description: "A set of layered sections of content, known as tab panels, that are displayed one at a time."
+---
+
+# Tabs
+
+The Tabs component is used to separate content into different panes where the user can switch between them. It is built using Radix UI for accessibility and custom styling.
+
+<PreviewCode rawCode={`
+<Tabs defaultValue="apple">
+  <TabsList>
+    <TabsTrigger value="apple">Apple</TabsTrigger>
+    <TabsTrigger value="orange">Orange</TabsTrigger>
+    <TabsTrigger value="banana">Banana</TabsTrigger>
+  </TabsList>
+  <TabsContent value="apple">
+    This is an apple 🍎. Apples are delicious and come in many varieties like Gala, Fuji, and Granny Smith.
+  </TabsContent>
+  <TabsContent value="orange">
+    This is an orange 🍊. Oranges are a great source of Vitamin C and are known for their bright color.
+  </TabsContent>
+  <TabsContent value="banana">
+    This is a banana 🍌. Bananas are rich in potassium and have a distinct curved shape.
+  </TabsContent>
+</Tabs>
+`}>
+<Tabs defaultValue="apple">
+  <TabsList>
+    <TabsTrigger value="apple">Apple</TabsTrigger>
+    <TabsTrigger value="orange">Orange</TabsTrigger>
+    <TabsTrigger value="banana">Banana</TabsTrigger>
+  </TabsList>
+  <TabsContent value="apple">
+    This is an apple 🍎. Apples are delicious and come in many varieties like Gala, Fuji, and Granny Smith.
+  </TabsContent>
+  <TabsContent value="orange">
+    This is an orange 🍊. Oranges are a great source of Vitamin C and are known for their bright color.
+  </TabsContent>
+  <TabsContent value="banana">
+    This is a banana 🍌. Bananas are rich in potassium and have a distinct curved shape.
+  </TabsContent>
+</Tabs>
+</PreviewCode>

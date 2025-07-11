@@ -1,0 +1,48 @@
+---
+title: Alert
+description: "Displays a callout for user attention with various styles."
+---
+
+# Alert
+
+The `Alert` component is used to display important messages to the user. It comes in four variants: `default` (info), `success`, `warning`, and `destructive`.
+
+### Informational
+
+Use the default alert for general information.
+
+<PreviewCode rawCode={`<Alert title="Heads up!">\n  You can add components to your app using the CLI.\n</Alert>`}>
+  <Alert title="Heads up!">
+    You can add components to your app using the CLI.
+  </Alert>
+</PreviewCode>
+
+### Success
+
+Use the `success` variant to indicate a successful action.
+
+<PreviewCode rawCode={`<Alert variant="success" title="Success!">\n  Your profile has been updated successfully.\n</Alert>`}>
+  <Alert variant="success" title="Success!">
+    Your profile has been updated successfully.
+  </Alert>
+</PreviewCode>
+
+### Warning
+
+Use the `warning` variant for non-critical warnings.
+
+<PreviewCode rawCode={`<Alert variant="warning" title="Warning">\n  This action is not reversible. Please be certain.\n</Alert>`}>
+  <Alert variant="warning" title="Warning">
+    This action is not reversible. Please be certain.
+  </Alert>
+</PreviewCode>
+
+### Destructive
+
+Use the `destructive` variant for errors or critical actions.
+
+<PreviewCode rawCode={`<Alert variant="destructive" title="Error">\n  Your session has expired. Please log in again.\n</Alert>`}>
+  <Alert variant="destructive" title="Error">
+    Your session has expired. Please log in again.
+  </Alert>
+</PreviewCode>

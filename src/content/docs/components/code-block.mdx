@@ -1,0 +1,32 @@
+---
+title: Code Block
+description: A themeable code block component with syntax highlighting.
+---
+
+# Code Block
+
+Code blocks are automatically styled using `rehype-highlight`. You can use standard markdown syntax for code fences, and they will be beautifully highlighted.
+
+## Usage
+
+Just use standard markdown code fences with a language identifier.
+
+```javascript
+import { Button } from "@/components/ui/button";
+
+export function MyComponent() {
+  return <Button>Click me</Button>
+}
+```
+
+### With Title
+
+You can add a title to a code block by adding `title="Your Title"` to the fence.
+
+```javascript title="components/MyComponent.tsx"
+import { Button } from "@/components/ui/button";
+
+export function MyComponent() {
+  return <Button>Click me</Button>
+}
+```

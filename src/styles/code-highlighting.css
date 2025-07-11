@@ -1,0 +1,116 @@
+
+.prose code.hljs {
+  color: #000000;
+  background: #ffffff;
+}
+.prose .hljs-strong,
+.prose .hljs-emphasis {
+  font-style: italic;
+  color: #000080;
+}
+.prose .hljs-bullet,
+.prose .hljs-quote,
+.prose .hljs-link,
+.prose .hljs-number,
+.prose .hljs-regexp,
+.prose .hljs-literal {
+  color: #000080;
+}
+.prose .hljs-code,
+.prose .hljs-selector-class {
+  color: #000080;
+}
+.prose .hljs-emphasis {
+  font-style: italic;
+}
+.prose .hljs-keyword,
+.prose .hljs-selector-tag,
+.prose .hljs-section,
+.prose .hljs-attribute,
+.prose .hljs-name,
+.prose .hljs-variable {
+  color: #800080;
+}
+.prose .hljs-string {
+  color: #008000;
+}
+.prose .hljs-comment,
+.prose .hljs-deletion,
+.prose .hljs-meta {
+  color: #008000;
+}
+.prose .hljs-type,
+.prose .hljs-attr {
+  color: #800000;
+}
+.prose .hljs-symbol,
+.prose .hljs-addition,
+.prose .hljs-selector-attr,
+.prose .hljs-selector-pseudo {
+  color: #000080;
+}
+.prose .hljs-title,
+.prose .hljs-selector-id {
+  color: #000080;
+}
+
+.dark .prose code.hljs {
+    background: #011627;
+    color: #d6deeb;
+}
+.dark .prose .hljs-keyword,
+.dark .prose .hljs-built_in,
+.dark .prose .hljs-type,
+.dark .prose .hljs-literal,
+.dark .prose .hljs-symbol,
+.dark .prose .hljs-bullet,
+.dark .prose .hljs-link {
+    color: #c792ea;
+}
+.dark .prose .hljs-string,
+.dark .prose .hljs-section,
+.dark .prose .hljs-title,
+.dark .prose .hljs-attr {
+    color: #ecc48d;
+}
+.dark .prose .hljs-variable,
+.dark .prose .hljs-template-variable,
+.dark .prose .hljs-name,
+.dark .prose .hljs-selector-id,
+.dark .prose .hljs-selector-class,
+.dark .prose .hljs-selector-attr,
+.dark .prose .hljs-selector-pseudo {
+    color: #82aaff;
+}
+.dark .prose .hljs-meta,
+.dark .prose .hljs-punctuation {
+    color: #82aaff;
+}
+.dark .prose .hljs-comment,
+.dark .prose .hljs-quote,
+.dark .prose .hljs-deletion {
+    color: #637777;
+    font-style: italic;
+}
+.dark .prose .hljs-doctag {
+    color: #c792ea;
+    font-style: italic;
+}
+.dark .prose .hljs-regexp {
+    color: #5ca7e4;
+}
+.dark .prose .hljs-number {
+    color: #f78c6c;
+}
+.dark .prose .hljs-attribute {
+    color: #80cbc4;
+}
+.dark .prose .hljs-addition {
+    color: #addb67;
+}
+.dark .prose .hljs-emphasis {
+    font-style: italic;
+}
+.dark .prose .hljs-strong {
+    font-weight: normal;
+}

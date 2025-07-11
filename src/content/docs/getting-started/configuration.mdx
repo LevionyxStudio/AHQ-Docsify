@@ -1,0 +1,84 @@
+---
+title: "Configuration"
+description: "Customize homepage, sidebar, and site metadata"
+---
+
+# ⚙️ Configuration
+
+AHQ Docsify is built to be flexible. You can customize the homepage content, docs sidebar structure, and even the site's tab title and meta descriptions — all through simple config files.
+
+## 🏠 Editing the Homepage
+
+To change the homepage sections (like hero, features, and call-to-actions), open:
+
+```ts
+src/config/homepage.ts
+```
+
+Inside you'll find a structured object that looks like this:
+
+```ts
+export const homePageConfig = {
+  header: { ... },
+  hero: { ... },
+  features: { ... },
+  cta: { ... },
+  footer: { ... },
+}
+```
+
+## 📚 Configuring the Sidebar Navigation
+
+The documentation sidebar is powered by:
+
+```ts
+src/config/docs.ts
+```
+
+This defines the order and structure of your documentation navigation.
+
+Example:
+
+```ts
+export const docsConfig = {
+  sidebarNav: [
+    {
+      title: "Getting Started",
+      slug: "getting-started",
+      items: [
+        { title: "Installation", href: "/docs/getting-started/installation" },
+        { title: "Configuration", href: "/docs/getting-started/configuration" },
+      ],
+    },
+  ],
+};
+```
+
+> 🧠 Tip: The order of items in this array determines the sidebar order.
+
+## 🧠 Setting Metadata (Tab Title & Description)
+
+For SEO and browser tab customization, update:
+
+```ts
+src/config/meta.ts
+```
+
+It looks like this:
+
+```ts
+export const metaConfig = {
+  title: "AHQ Docsify",
+  description: "The elegant, powerful, and fast way to build your documentation site.",
+};
+```
+
+## ✅ Summary
+
+| Config File        | Purpose                        |
+|--------------------|--------------------------------|
+| homepage.ts      | Homepage sections and layout   |
+| docs.ts          | Sidebar navigation             |
+| meta.ts          | Browser title and description  |
+
+By editing these config files, you can fully customize your AHQ Docsify instance without modifying the core logic.

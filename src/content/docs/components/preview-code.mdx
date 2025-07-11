@@ -1,0 +1,24 @@
+---
+title: Preview Code
+description: Display a live preview of a component with its corresponding code.
+---
+
+# Preview Code
+
+import { PreviewCode } from '@/components/docs/preview-code';
+import { Button } from '@/components/ui/button';
+
+The `PreviewCode` component is a powerful tool for documentation. It renders a live, interactive preview of a component and displays the corresponding source code below it, with a handy copy button.
+
+## Usage
+
+The component takes two main props: `rawCode` (a string of the code to display) and `children` (the actual component to render).
+
+<PreviewCode rawCode={`<Button variant="outline">Click Me</Button>`}>
+  <Button variant="outline">Click Me</Button>
+</PreviewCode>
+
+```javascript
+<PreviewCode rawCode={`<Button variant="outline">Click Me</Button>`}>
+  <Button variant="outline">Click Me</Button>
+</PreviewCode>
